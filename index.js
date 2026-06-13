@@ -24,4 +24,4 @@ cloudinary.cloudinaryConnect();
 
 app.listen(PORT, (req, res) =>{
     console.log(`App is running at ${PORT}`);
-});
+}); 

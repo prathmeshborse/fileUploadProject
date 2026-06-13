@@ -17,7 +17,7 @@ exports.localFileUpload = async (req, res) => {
 
         const file = req.files.file;
 
-        console.log("File Content:\n", file);
+        // console.log("File Content:\n", file);
 
         const uploadDir = path.join(__dirname, "files");
 
@@ -127,6 +127,7 @@ exports.imageUpload = async (req, res) => {
         });
     }
 };
+
 
 // ==========================================
 // Video Upload
